@@ -21,7 +21,7 @@ function num() {
 }
 
 const deleteItem = (index) => {
-    // alert('yes')
+    alert('yes')
     allproducts.splice(index, 1)
     displayItems()
 }
